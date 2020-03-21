@@ -2,7 +2,7 @@ def valid_move?(board, position)
   if position_taken?(board,position)
     return false
     puts "Position taken"
-  else
+  else 
     puts "Good move!"
   end
 end# code your #valid_move? method here
