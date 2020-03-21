@@ -3,6 +3,7 @@ def valid_move?(board, position)
     return false
   else
     return true
+  end
 end# code your #valid_move? method here
 
 
