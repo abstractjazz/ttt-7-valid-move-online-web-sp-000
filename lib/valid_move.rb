@@ -1,5 +1,5 @@
 def valid_move?(board, position)
-  if position_taken?(board, position) || input.bewtween(0,8)
+  if position_taken?(board, position) || position.bewtween(0,8)
     return false
   else
     return true
