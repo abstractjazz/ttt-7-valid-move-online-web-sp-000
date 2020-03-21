@@ -1,5 +1,5 @@
 def valid_move?(board, position)
-  if position_taken?
+  if position_taken?(board,index)
     return false
     puts "Position taken"
   end
