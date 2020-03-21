@@ -7,7 +7,7 @@ def valid_move?(board, index)
 end# code your #valid_move? method here
 
 def not_on_board
-  if !(index.between(0,8))
+  if !(index.between(0,8)) == false
     return nil
   end
 end 
